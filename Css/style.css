@@ -8,8 +8,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 100px;
-    background: #FFF;
+    background: #f8f5f5;
+    padding: 0px 100px;
     box-shadow:  rgba(0, 0, 0, 0.05);
     max-width: 1920px;
   
@@ -32,4 +32,64 @@ nav li a{
     text-align: center;
     font-size: 35px;
     font-weight: 700; 
+}
+.nav-extra{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px;
+    
+    
+    
+}
+
+/* Banner section styles */
+.banner{
+    margin: 0px 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title-1{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.banner-title-2{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.banner-p{
+    margin-top: 20px;
+    color: #534C64;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.banner-img img{
+width: 100%;
+}
+.banner-btn button{
+    
+    margin: 20px 10px;
+    
+}
+.btn-primary{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 48px;
+    border: 0;
+    color: #FFF;
 }
